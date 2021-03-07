@@ -13,6 +13,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .hero-container {
@@ -46,8 +47,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1F2438), to(#485483));
-  background: linear-gradient(#1F2438, #485483);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1F2438), to(#353d5f));
+  background: linear-gradient(#1F2438, #353d5f);
   color: #d0dbec;
   font-family: "Montserrat", serif;
 }
@@ -163,6 +164,12 @@ body {
   font-size: 0.9rem;
 }
 
+.hero-container #topBtn:hover {
+  background-color: #d0dbec;
+  color: #202438;
+  border: 1px solid #202438;
+}
+
 .hero-container .hard-skills-cards-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,8 +250,8 @@ body {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   width: 100%;
-  height: 60%;
-  padding-bottom: 10rem;
+  height: 100%;
+  padding-bottom: 3rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-item-align: center;
@@ -300,6 +307,22 @@ body {
 .hero-container .projects-container .projects:hover {
   background-color: rgba(32, 36, 56, 0.95);
   color: #d0dbec;
+}
+
+.hero-container .projects-container .socials {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.hero-container .projects-container .socials img {
+  width: 5rem;
+  margin: 0 3rem;
 }
 
 .hero-container .contact-container {

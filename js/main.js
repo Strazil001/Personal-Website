@@ -52,20 +52,17 @@ function init(){
 			start: 'top bottom-=200',
 			end: 'top end+=300',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('.hard-skills-cards', {
 		duration: 1,
 		opacity: 0,
 		x: -450,
-		rotation: 360,
 		scrollTrigger: {
 			trigger: '.hard-skills-cards',
 			start: 'top bottom-=200',
-			end: 'top end+=300',
+			end: 'top end+=400',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('#h2-projects', {
@@ -77,7 +74,6 @@ function init(){
 			start: 'top bottom-=200',
 			end: 'top end+=300',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('.projects', {
@@ -87,9 +83,8 @@ function init(){
 		scrollTrigger: {
 			trigger: '.projects',
 			start: 'top bottom-=200',
-			end: 'top end+=300',
+			end: 'top end+=600',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('.form-name', {
@@ -101,7 +96,6 @@ function init(){
 			start: 'top bottom',
 			end: 'top bottom-=400',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('.form-email', {
@@ -113,7 +107,6 @@ function init(){
 			start: 'top bottom',
 			end: 'top bottom-=400',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('.form-comments', {
@@ -125,7 +118,6 @@ function init(){
 			start: 'top bottom',
 			end: 'top bottom-=400',
 			scrub: true,
-			markers: true
 		}
 	});
 	gsap.from('.form-submit', {
@@ -137,7 +129,6 @@ function init(){
 			start: 'top bottom',
 			end: 'top bottom-=200',
 			scrub: true,
-			markers: true
 		}
 	});
 }
