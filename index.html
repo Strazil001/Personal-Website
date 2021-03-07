@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="/styles/style.css">
+		<title>Steve Van de Vyver</title>
+	</head>
+	<body>
+		<!-- Main Container, 4 viewheights long. -->
+		<div class="hero-container">
+
+			<!-- Header section, spans 1 viewheight. -->
+			<header>
+				<h1 id="my-name">STEVE<br>VAN DE VYVER</h1>
+				<img id="my-profile-image" src="/images/Steve-web.jpg" alt="my profile picture">
+				<h2 id="function-title">Junior<br>.Net Developer</h2>
+				<p id="quote-john-woods">“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”<br><br>
+				<span>― John Woods</span></p>
+			</header>
+
+			<!-- Back to top button. -->
+			<button onclick="topFunction()" id="topBtn" title="Go to top">TOP</button>
+
+			<!-- Intro slider -->
+			<div class="intro">
+				<h1 id="intro-head-title">HI</h1>
+				<h2 id="intro-middle-title">I AM</h2>
+			</div>
+	
+			<!-- Skills section. -->
+			<section class="hard-skills-cards-container">
+				<h2 class="h2-hard-skills">MY SKILLSET</h2>
+				<div class="hard-skills-cards" id="card1">
+					<img src="/images/C-Sharp.webp" alt="C# logo">
+				</div>
+				<div class="hard-skills-cards" id="card2">
+					<img src="/images/Azure.png" alt="Azure logo">
+				</div>
+				<div class="hard-skills-cards" id="card3">
+					<img src="/images/Angular.png" alt="Angular logo">
+				</div>
+				<div class="hard-skills-cards" id="card4">
+					<img src="/images/HTML-5.png" alt="HTML5 logo">
+				</div>
+				<div class="hard-skills-cards" id="card5">
+					<img src="/images/CSS-3.png" alt="CSS3 logo">
+				</div>
+				<div class="hard-skills-cards" id="card6">
+					<img src="/images/Javascript.png" alt="Javascript logo">
+				</div>
+				<div class="hard-skills-cards" id="card7">
+					<img src="/images/Microsoft-DOT-NET.png" alt=".NET Core logo">
+				</div>
+				<div class="hard-skills-cards" id="card8">
+					<img src="/images/DOT-NET-CORE.png" alt=".NET Core logo">
+				</div>
+				<div class="hard-skills-cards" id="card9">
+					<img src="/images/Blazor.png" alt="Blazor logo">
+				</div>
+				<div class="hard-skills-cards" id="card10">
+					<img src="/images/SQL.png" alt="SQL logo">
+				</div>
+			</section>
+
+			<!-- Projects section. -->
+			<section class="projects-container">
+				<h2 id="h2-projects">OUR PROJECTS</h2>
+				<div class="projects" id="project1">
+					<a href="#">
+						<img src="/images/jeugdhuis.png" alt="jeugdhuis console app screenshot">
+					</a>
+					<h4>Jeugdhuis console app</h4>
+					<p>Ons eerste project</p>
+				</div>
+				<div class="projects" id="project2">
+					<a href="#">
+						<img src="/images/weapons-are-us.png" alt="leger winforms app screenshot">
+					</a>
+					<h4>Leger winforms app</h4>
+					<p>Ons tweede project</p>
+				</div>
+			</section>
+
+			<!-- Contact section. -->
+			<section class="contact-container">
+				<form action="mailto:s-vdv@live.be" method="GET", enctype="text/plain">
+					<div class="form-name">
+						<input type="text" name="name" id="name" placeholder="Name">
+					</div>
+					<div class="form-email">
+						<input type="email" name="email" id="email" placeholder="Email">
+					</div>
+					<div class="form-comments">
+						<textarea name="comments" id="comments" cols="20" rows="10" placeholder="Comments"></textarea>
+					</div>
+					<div class="form-submit">
+						<input type="submit" name="submit" value="GET IN TOUCH">
+					</div>
+				</form>
+			</section>
+
+			<footer>Steve Van de Vyver&copy 2021</footer>
+		</div>
+
+		<!-- Javascript animation library. -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+		<!-- Animation on scroll events. -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+		<!-- My own animation js file. -->
+		<script src="/js/main.js"></script>
+	</body>
+</html>
