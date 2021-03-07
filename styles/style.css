@@ -275,7 +275,7 @@ body {
 
 .hero-container .projects-container h2 {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 10rem;
   color: #d0dbec;
   font-size: 2.5rem;
   font-weight: 400;
@@ -438,6 +438,11 @@ body {
     width: 14rem;
     height: 14rem;
   }
+  .hero-container .projects-container {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -473,12 +478,14 @@ body {
   }
   .hero-container header #function-title {
     width: 100%;
+    margin-top: 3rem;
     font-size: 1.8rem;
     color: #202438;
     text-align: center;
   }
   .hero-container header #quote-john-woods {
     font-size: 1rem;
+    margin: 10rem 5rem 0 5rem;
   }
   .hero-container .hard-skills-cards-container {
     height: 100vh;
@@ -486,13 +493,13 @@ body {
     margin-bottom: 2rem;
   }
   .hero-container .hard-skills-cards-container .h2-hard-skills {
-    margin: 10rem 0;
+    margin: 15rem 0;
     font-size: 2rem;
   }
   .hero-container .hard-skills-cards-container .hard-skills-cards {
-    width: 6rem;
-    height: 6rem;
-    margin: 0.5rem;
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem;
   }
   .hero-container .projects-container {
     height: 80vh;
@@ -507,13 +514,67 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
+    width: 15rem;
+  }
+  .hero-container .projects-container .projects img {
+    width: 12rem;
   }
   .hero-container .projects-container h2 {
-    margin-top: 5rem;
+    margin: 10rem 0;
+    font-size: 2rem;
     color: #d0dbec;
+  }
+  .hero-container .projects-container .socials {
+    margin-top: 15rem;
   }
   .hero-container .contact-container {
     height: 80vh;
+    margin: 0 auto;
+    padding-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-container .hard-skills-cards-container .hard-skills-cards {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 550px), (max-height: 900px) {
+  .hero-container header #my-profile-image {
+    width: 12rem;
+  }
+  .hero-container header #function-title {
+    margin-top: 5rem;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .hero-container header #quote-john-woods {
+    margin: 0;
+  }
+  .hero-container .projects-container {
+    padding-top: 10rem;
+  }
+  .hero-container .projects-container .projects {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 2rem;
+  }
+  .hero-container .projects-container .projects img {
+    width: 8rem;
+  }
+  .hero-container .projects-container .projects h2 {
+    margin: 0;
+  }
+  .hero-container .projects-container .projects .socials {
+    margin: 0;
+  }
+  .hero-container .projects-container .projects .socials img {
+    width: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
