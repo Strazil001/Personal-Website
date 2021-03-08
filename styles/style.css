@@ -269,6 +269,11 @@ body {
   font-family: "Montserrat", serif;
 }
 
+.hero-container .projects-container a {
+  text-decoration: none;
+  color: #202438;
+}
+
 .hero-container .projects-container img {
   width: 16rem;
 }
